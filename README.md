@@ -14,3 +14,27 @@ Flex Box is :=>
 How does it work?
 It Has 1 parent Element: and this Element is referred to as FlexContainer
 Flex container can be any element in the HTML.
+
+The Child Elements are called as FlexItems.
+Flex Items can go N number of different Directions, they are not like 
+only go either Left or Right .
+
+It has a Main axis ,where it will  be starting from the left hand side of the Flex
+container and point to the RIGHT.
+
+As told Above it is 1 Dimensional Means it flows(or Flex) in 1 Direction only
+so All the FlexItems will start from Left and pointing towards Right in FlexContainer
+
+Left to Right -->MainAxis------>FlexItem1 FlexItem  < FlexITEM   FLEX ITEM-----------FlexContainer-------------->
+
+So Here the point where FLexItem starts Flexing(Flowing) is called MainStart
+and opposite that is called MainEnd.
+
+MainStart is at the VeryLeft of the FlexContainer and
+MainEnd   is at the VeryRight of the FlexContainer.
+
+From MainStart --> to MainEnd is total called as MainSize.
+
+
+
+
