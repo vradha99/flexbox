@@ -11,4 +11,6 @@ Flex Box is :=>
    of Elements inside of a 1Single Parent Element.
 -> Flex Box solves some Layout Problems(Vertical Alignment,columnLayouts Etc)
    No need to use Floats,Table,Positioning or box model Hacks.
-   
+How does it work?
+It Has 1 parent Element: and this Element is referred to as FlexContainer
+Flex container can be any element in the HTML.
