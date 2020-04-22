@@ -45,20 +45,21 @@ Perpendicular to MainAxis is the CrossAxis
 CrossAxis Has CrossStart and CrossEnd.
 
 MainStart             MainSize                   MainEnd
-^======================================================^
-  |   crossstart
-c |  ^
-R |  |
-o |  |                                          MainAxis( Left to Right )
-s |  |crossAxis(top to Bottom) --------------------------------------->
-s |  |
-i |  |
-z |  |
-E |  | crossEnd
-========================================================
+
+     crossstart
+c    
+R    
+o                                           MainAxis( Left to Right )
+s   crossAxis(top to Bottom) 
+s   
+i   
+z   
+E    crossEnd
+
 
 As Like  Parallel ------- Main Size same like that Perpendicular  also 
-has  CrossSize
+has  CrossSize.
+
 
 
 
