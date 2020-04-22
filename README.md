@@ -1,5 +1,6 @@
 # Flex Box :
 
+Dedicated to my Father Late Shri Vegi.Ramachandraprakash 
 @author: vegi.Harendranath B.tech,M.tech, PHD..(CSE)
          UI Lead ,A senior softwareEngineer
 
@@ -27,6 +28,9 @@ so All the FlexItems will start from Left and pointing towards Right in FlexCont
 
 Left to Right -->MainAxis------>FlexItem1 FlexItem  < FlexITEM   FLEX ITEM-----------FlexContainer-------------->
 
+MainStart---------------MainEnd
+<-----------MainAxis---------->       
+
 So Here the point where FLexItem starts Flexing(Flowing) is called MainStart
 and opposite that is called MainEnd.
 
@@ -34,6 +38,30 @@ MainStart is at the VeryLeft of the FlexContainer and
 MainEnd   is at the VeryRight of the FlexContainer.
 
 From MainStart --> to MainEnd is total called as MainSize.
+
+CROSSAXIS:
+
+Perpendicular to MainAxis is the CrossAxis
+CrossAxis Has CrossStart and CrossEnd.
+
+MainStart             MainSize                   MainEnd
+^======================================================^
+  |   crossstart
+c |  ^
+R |  |
+o |  |                                          MainAxis( Left to Right )
+s |  |crossAxis(top to Bottom) --------------------------------------->
+s |  |
+i |  |
+z |  |
+E |  | crossEnd
+========================================================
+
+As Like  Parallel ------- Main Size same like that Perpendicular  also 
+has  CrossSize
+
+
+
 
 
 
