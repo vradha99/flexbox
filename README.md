@@ -60,9 +60,25 @@ E    crossEnd
 As Like  Parallel ------- Main Size same like that Perpendicular  also 
 has  CrossSize.
 
+Flex-Direction:
 
+1) row:  left to right , Main axis starts from Left and flow towards Right and all the items will
+   flow from left to right in Row.
+   <div class = "container row">
+2) row-reverse : right to left ,Reverse of row means the main axis starts from Right and flow towards left
+   Means all the items will flow from  right to left in Row.
+   <div class = "container row-reverse">
 
+3) column: Top to bottom: 
+   Main axis starts from top to bottom and flow towards bottom and all the items will flow(flex)
+   from top to bottom
+   <div class = "column">
 
+4) column-reverse: bottom to top:
+   Main axis starts from bottom to top and flow towards right  and all the items will flow(flex)
+   from bottom to top 
+   <div class = "column-reverse>
+   
 
 
 
