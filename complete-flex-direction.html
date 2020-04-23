@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.flex-container {
+  display: flex;
+  background-color: orange;
+}
+
+.row {
+display: flex;
+flex-direction: row;
+background-color: dodgerblue;
+}
+
+.row-reverse {
+display: flex;
+flex-direction: row-reverse;
+background-color:purple;
+}
+
+.column
+{
+display: flex;
+flex-direction: column;
+background-color: lightgreen; 
+}
+
+.column-reverse 
+{
+display: flex;
+flex-direction: column-reverse;
+background-color: black;
+}
+
+.row > div {
+background-color: green;
+margin: 10px;
+padding: 20px;
+font-size: 30px;
+}
+
+.row-reverse > div {
+background-color: red;
+margin: 10px;
+padding: 20px;
+font-size: 30px;
+}
+
+.column > div {
+background-color: cornsilk; 
+margin: 10px;
+padding: 20px;
+font-size: 30px;
+}
+
+.column-reverse > div {
+background-color: yellow; 
+margin: 10px;
+padding: 20px;
+font-size: 30px;
+}
+
+.flex-container > div {
+background-color: #f1f1f1;
+margin: 10px;
+padding: 20px;
+font-size: 30px;
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="flex-container">
+<div>1</div>
+<div>2</div>
+<div>3</div>  
+<div>4</div> 
+</div>
+
+<div class ="container row">
+<div class ="item">1</div>
+<div class ="item">2</div>
+<div class ="item">3</div>
+<div class ="item">4</div>
+</div>
+
+<div class ="container row-reverse">
+<div class ="item">1</div>
+<div class ="item">2</div>
+<div class ="item">3</div>
+<div class ="item">4</div>
+</div>
+
+<div class ="container column">
+<div class ="item">1</div>
+<div class ="item">2</div>
+<div class ="item">3</div>
+<div class ="item">4</div>
+</div>
+
+<div class ="container column-reverse">
+<div class ="item">1</div>
+<div class ="item">2</div>
+<div class ="item">3</div>
+<div class ="item">4</div>
+</div>
+
+<p>
+Flex-directions like row, row-reverse ,column, column-reverse
+</p>
+
+<p>A Flexible Layout must have a parent element with the <em>display</em> property set to <em>flex</em>.</p>
+
+<p>Direct child elements(s) of the flexible container automatically becomes flexible items.</p>
+
+</body>
+</html>
