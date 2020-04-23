@@ -1,18 +1,31 @@
 .row {
-    flex-direction: row;
+flex-direction: row;
+background-color: dodgerblue;
+margin: 10px;
+padding: 20px;
+font-size: 30px;
 }
 
-.row-reverse 
-{
+.row-reverse {
 flex-direction: row-reverse;
+background-color: rosybrown;
+margin: 10px;
+padding: 20px;
+font-size: 30px;
 }
 
-.column 
-{
-    flex-direction: column;
+.column {
+flex-direction: column;
+background-color: saddlebrown;
+margin: 10px;
+padding: 20px;
+font-size: 30px;
 }
 
-.column-reverse 
-{
-    flex-direction: column-reverse;
+.column-reverse {
+flex-direction: column-reverse;
+background-color: slateblue;
+margin: 10px;
+padding: 20px;
+font-size: 30px;
 }
